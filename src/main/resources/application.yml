@@ -1,0 +1,12 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: ms-inventory
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:2800/inventory?useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta
+  servlet:
+    multipart:
+      enabled: true
